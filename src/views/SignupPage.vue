@@ -43,6 +43,7 @@ export default {
     submitForm() {
       // Logique d'inscription ici
       console.log('Utilisateur:', this.username, this.email);
+      this.$router.push('/home');
     }
   }
 };

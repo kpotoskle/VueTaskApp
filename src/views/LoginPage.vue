@@ -37,6 +37,7 @@ export default {
     submitForm() {
       // Logique de connexion ici
       console.log('Email:', this.email);
+      this.$router.push('/home');
     }
   }
 };
